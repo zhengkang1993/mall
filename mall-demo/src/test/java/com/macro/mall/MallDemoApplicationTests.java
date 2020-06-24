@@ -24,6 +24,7 @@ public class MallDemoApplicationTests {
 		product.setId(1L);
 		product.setName("小米手机");
 		product.setBrandName("小米");
+
 		logger.info(mapper.writeValueAsString(product));
 		logger.error(mapper.writeValueAsString(product));
 	}
